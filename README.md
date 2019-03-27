@@ -47,8 +47,8 @@ class ProfileScreen extends Component {
 }
 
 const BasicApp = StackNavigator({
-  Main: {screen: MainScreen},
-  Profile: {screen: ProfileScreen},
+  Main: {screen: MainScreen, path: '/'},
+  Profile: {screen: ProfileScreen, path: '/profile'},
 });
 
 render(<BasicApp />);
