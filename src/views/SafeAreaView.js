@@ -1,0 +1,1 @@
+// TODO iphoneX support  https://reactnavigation.org/docs/handling-iphonex.html

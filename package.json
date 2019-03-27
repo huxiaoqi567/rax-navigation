@@ -31,19 +31,22 @@
     "npm": ">=3.0.0"
   },
   "dependencies": {
-    "clamp": "^1.0.1",
-    "invariant": "^2.2.2",
-    "path-to-regexp": "^1.7.0",
-    "rax-animated": "^0.6.5",
-    "rax-image": "^0.6.5",
-    "rax-text": "^0.6.5",
-    "rax-touchable": "^0.6.5",
-    "rax-view": "^0.6.5",
-    "shallowequal": "^0.2.2",
-    "universal-easing": "^0.6.5",
-    "universal-panresponder": "^0.6.5",
-    "universal-platform": "^0.6.5",
-    "universal-stylesheet": "^0.6.5"
+    "deep-assign": "^2.0.0",
+    "history": "^4.7.2",
+    "md5": "^2.2.1",
+    "object-assign": "^4.1.1",
+    "path-to-regexp": "^2.0.0",
+    "rax": "0.x.x",
+    "rax-button": "0.x.x",
+    "rax-image": "0.x.x",
+    "rax-text": "0.x.x",
+    "rax-view": "0.x.x",
+    "rax-tab-panel": "0.x.x",
+    "simple-lodash": "^0.0.6",
+    "universal-animation": "0.x.x",
+    "universal-env": "0.x.x",
+    "universal-transition": "0.x.x",
+    "weex-bindingx": "0.0.x"
   },
   "peerDependencies": {
     "rax": "0.x"
@@ -58,6 +61,7 @@
     "@babel/preset-env": "7.2.0",
     "@babel/preset-flow": "7.0.0",
     "@babel/preset-react": "7.0.0",
+    "rax": "0.x",
     "rax-test-renderer": "^0.6.5",
     "rax-scripts": "^1.0.0-beta.2",
     "babel-core": "^7.0.0-bridge.0",
