@@ -10,6 +10,7 @@ import {findDOMNode} from 'rax';
 import iphonexHelper from './IPhoneXHelper';
 import QueryString from './third-party/query-string';
 import {QUERY_STRING} from './Constant';
+import bindingx from 'weex-bindingx';
 
 const statusBarHeight = iphonexHelper.statusBarHeight;
 const bottomBarHeight = iphonexHelper.bottomBarHeight;
@@ -18,7 +19,7 @@ const bottomBarHeight = iphonexHelper.bottomBarHeight;
 const DEFAULT_DURATION = 350;
 const DEFAULT_EASING = 'ease-out';
 
-let isSupportNewBinding = 1;
+let isSupportNewBinding = bindingx.isSupportNewBinding;
 
 
 let __i = 1;
